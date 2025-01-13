@@ -1,0 +1,49 @@
+.profile{
+    text-align: center;
+    border-bottom: 1px solid rgb(190, 188, 188);
+
+}
+.profile img{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    border: 8px solid gray;
+    margin-top: 140px;
+}
+.content{
+    margin: 18px 0px;
+}
+ .name{
+font-size: 50px;
+font-weight: 700;
+color: rgb(75, 74, 74);
+
+}
+.passion{
+    font-size: 30px;
+    margin: 16px 0px;
+    color: rgb(75, 74, 74);
+
+    
+}
+.passion span{
+    color: rgb(248, 9, 148);
+
+}
+.contact{
+    padding: 10px 25px;
+    border: 1px solid rgb(187, 184, 184);
+    font-size: 18px;
+    color: rgb(248, 9, 148);
+  border-radius: 5px;
+  margin-top: 22px;
+  margin-bottom: 70px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.4s ease-in-out;
+}
+.contact:hover{
+    background-color:  rgb(248,9,148);
+    color: white;
+  margin-top: 17px;
+
+}
