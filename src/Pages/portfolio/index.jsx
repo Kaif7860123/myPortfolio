@@ -4,6 +4,11 @@ import Sidebar from '../sidebar'
 import Profile from '../Profile'
 import Features from '../features'
 import Project from '../project'
+import Resume from '../resume'
+import Education from '../education'
+import Skills from '../Skills'
+import Footer from '../Footer'
+import Contact from '../contact'
 const Portfolio = () => {
   return (
     <>
@@ -13,6 +18,10 @@ const Portfolio = () => {
  <Profile/>
  <Features/>
  <Project/>
+ <Resume/>
+ <Skills/>
+ <Contact/>
+ <Footer/>
 </div>
         </div> 
     </>

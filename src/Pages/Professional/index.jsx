@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './index.module.css'
-import CommonData from '../component/resume'
-import { designData } from '../Data/professionalData'
+import CommonData from '../../component/resume'
+import { designData } from '../../Data/professionalData'
 function Professional() {
   return (
     <>

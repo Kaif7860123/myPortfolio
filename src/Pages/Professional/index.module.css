@@ -1,0 +1,35 @@
+.professional{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid rgb(197, 192, 192);
+margin-bottom: 80px;
+}
+.frameworkSkill{
+    width: 50%;
+    margin: 30px 10px;
+    margin-bottom: 80px;
+}
+.frameworks{
+    margin-top: 20px;
+}
+.frameworkName{
+    color: rgb(75,74,74);
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+.frameworkPercent{
+    /* padding: 2px 50px; */
+    background-color: rgb(218, 213, 213);
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+.percentColor{
+    width: 80%;
+    font-size: 15px;
+    background-image: linear-gradient(to left,rgb(248,9,148),rgb(255, 0, 76));
+    border-radius: 10px;
+    text-align: center;
+
+
+}

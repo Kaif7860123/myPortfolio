@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+
 }
 .container{
 width: 100%;
@@ -13,5 +14,7 @@ display: flex;
 .section{
     width: 80%;
 border-left: 1px solid rgb(190, 188, 188);
+background-color: rgb(243, 239, 243);
+
 margin-left: auto;
 }
