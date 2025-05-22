@@ -19,7 +19,7 @@ export const content=[
     }, {
         id:2,
         icon:<FiLayers/>,
-        text:"Portfolio"
+        text:"Projects"
     },
     {
         id:3,
@@ -29,18 +29,9 @@ export const content=[
     {
         id:4,
         icon:<FaRegUser/>,
-        text:"Client"
+        text:"Skills"
     },
-    {
-        id:5,
-        icon:<BsCart3/>,
-        text:"Pricing"
-    },
-    {
-        id:6,
-        icon:<GrGallery/>,
-        text:"Blog"
-    },
+     
     {
         id:7,
         icon:<FaRegMessage/>,

@@ -25,6 +25,7 @@ export const designData=[
          ,width: "100%"
     },
     
+    
     {
         id:5,
         frameworkName:"HTML",
@@ -49,5 +50,23 @@ export const designData=[
         frameworkName:"ReactJs",
         percentage:"90%"
          ,width: "90%"
+    },
+    {
+        id:9,
+        frameworkName:"C",
+        percentage:"90%"
+         ,width: "90%"
+    },
+    {
+        id:10,
+        frameworkName:"mongodb",
+        percentage:"80%"
+         ,width: "80%"
+    },
+    {
+        id:11,
+        frameworkName:"git",
+        percentage:"80%"
+         ,width: "80%"
     },
 ]

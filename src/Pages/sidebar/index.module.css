@@ -1,16 +1,19 @@
 .sidebar{
     width: 20%;
     /* background-color: rgb(243, 239, 243); */
-    padding: 45px 40px;
+    padding: 45px;
     height: 100vh;
     overflow: scroll;
     position: fixed;
+     
 }
 .profile img{
     width: 178px;
     height: 178px;
     border-radius: 50%;
     border: 5px solid white;
+background-size: cover;
+object-fit: cover;
 }
 .sidebarContent{
     margin-top: 40px;

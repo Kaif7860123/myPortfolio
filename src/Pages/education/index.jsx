@@ -58,7 +58,7 @@ function Education() {
 
         <div className={styles.educationSection}>
           <div className={styles.educationTime}>
-          <CommonData year="2019-2025" quality="Job Exprience"/>
+          <CommonData year="2024-2025" quality="Job Exprience"/>
            
           </div>
           <div className={styles.educationDetail}>
