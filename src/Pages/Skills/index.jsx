@@ -3,10 +3,10 @@ import styles from "./index.module.css"
 import Header from '../../component/header'
  
 import { skillData } from '../../Data/skillData'
-function Skills() {
+function Skills({skillref}) {
   return (
     <>
-      <div className={styles.skills}>
+      <div className={styles.skills} ref={skillref}>
       <Header title="web development skills" task="My Skills" />
       <div className={styles.projectBox}>
                 {

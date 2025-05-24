@@ -4,10 +4,10 @@ import Header from "../../component/header";
 import contact from "../../assets/contact1.png";
 import { FaArrowRight } from "react-icons/fa";
 import { Icons } from "../../Data/sidebarContent";
-function Contact() {
+function Contact({contactref}) {
   return (
     <>
-      <div className={styles.contact}>
+      <div className={styles.contact} ref={contactref}>
         <Header title="Contact" task="Contact With Me" />
         <div className={styles.projectBox}>
           <div className={styles.project1}>

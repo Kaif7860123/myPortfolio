@@ -41,7 +41,8 @@ export const projectData=[
        HeartIcon:<IoMdHeartEmpty/>,
         count:600,
         content:"The Service provide for design",
-        arrowIcon:<FiArrowUpRight/>
+        arrowIcon:<FiArrowUpRight/>,
+        url:"https://euphonious-bonbon-60ef35.netlify.app/"
         
     },  
                                     
@@ -61,6 +62,7 @@ export const projectData=[
         pic:project6,                        
         text:"Development",  
        HeartIcon:<IoMdHeartEmpty/>,
+       url:"https://texteditore.netlify.app/",
         count:600,
         content:"The Service provide for design",
         arrowIcon:<FiArrowUpRight/>
@@ -71,6 +73,7 @@ export const projectData=[
         pic:project4,                        
         text:"Development",  
        HeartIcon:<IoMdHeartEmpty/>,
+       url:"https://geminie.netlify.app/",
         count:600,
         content:"The Service provide for design",
         arrowIcon:<FiArrowUpRight/>
@@ -101,6 +104,7 @@ export const projectData=[
         pic:project9,                        
         text:"Development",  
        HeartIcon:<IoMdHeartEmpty/>,
+       url:"https://kaif-passwordgenerator.netlify.app/",
         count:600,
         content:"The Service provide for design",
         arrowIcon:<FiArrowUpRight/>

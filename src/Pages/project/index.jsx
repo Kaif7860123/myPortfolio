@@ -2,14 +2,15 @@ import React from "react";
 import styles from "./index.module.css";
 import Header from "../../component/header";
 import { projectData } from "../../Data/projectData";
+import { Link } from "react-router-dom";
 
 
 // import project1 from '../../assets/portfolio1.jpg';
 
-function Project() {
+function Project({projectref}) {
   return (
     <>   
-      <div className={styles.project}>
+      <div className={styles.project} ref={projectref}>
         <Header                           
           title="Visit my project and keep your feedback"
           task="My Project"
@@ -32,12 +33,16 @@ function Project() {
                   </p>                        
                 </div>
                 <div className={styles.bottomContent}>
+                  <Link to={item.url}>
+
                   <p className={styles.text}>
                    {item.content}
                     <i>
                     {item.arrowIcon}                           
                     </i>
                   </p>
+                  </Link>
+
                 </div>
               </div>
               )

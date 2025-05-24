@@ -62,3 +62,15 @@ margin-bottom: 23px;
     cursor: pointer;
     color: white;
 }
+.menu{
+    font-size: 40px;
+       color: rgb(248, 9, 148);
+
+}
+
+@media screen and (max-width:1192px) {
+    .sidebar{
+        display:none;
+        background-color: red;
+    }
+}

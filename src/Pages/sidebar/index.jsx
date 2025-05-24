@@ -2,21 +2,21 @@ import React, { useRef } from "react";
 import styles from "./index.module.css";
 import pic from "../../assets/kaifImg.jpg";
 import { content, Icons } from "../../Data/sidebarContent";
-const Sidebar = () => {
-  const sectionRef=useRef(null)
-const scrollToSection=()=>{
-  sectionRef.current?.scrollIntoView({behavior:"smooth"})
-}
+import { FiMenu } from "react-icons/fi";
+const Sidebar = ({scrollToSection}) => {
+ 
+
   return (
     <>
       <div className={styles.sidebar}>
+        <i className={styles.menu}><FiMenu/></i>
         <div className={styles.profile}>
           <img src={pic} />
         </div>
         <div className={styles.sidebarContent}>
           {content.map((item, i) => {
             return (
-              <p className={styles.content} key={i} ref={sectionRef} onClick={scrollToSection}>
+              <p className={styles.content}  key={i}  onClick={()=>scrollToSection(item.text)}>
                 <span>{item.icon}</span>
                 {item.text}
               </p>

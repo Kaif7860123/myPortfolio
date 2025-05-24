@@ -19,11 +19,6 @@ function Education() {
                 return (
                   <>
                     <div className={styles.border}>
-                      {/* <div className={styles.circleCont}>
-                <div className={styles.circle}>
-                  <div className={styles.borderRight}></div>
-                </div>
-              </div> */}
                       <div className={styles.marginBttom}>
                         <div className={styles.detailBox}>
                           <div className={styles.circleCont}>

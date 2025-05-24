@@ -2,11 +2,10 @@ import React, { useRef } from 'react'
 import styles from './index.module.css'
 import { data } from '../../Data/featureData'
 import Header from '../../component/header'
-function Features() {
-  const featuresRef=useRef()
+function Features({featureref}) {
   return (
     <>
-      <div className={styles.feature} ref={featuresRef}>
+      <div className={styles.feature} ref={featureref}>
                {/* <p className={styles.text}>Features</p>
             <p className={styles.name}>What I Do</p> */}
             <Header title="Features" task="What I Do"/>

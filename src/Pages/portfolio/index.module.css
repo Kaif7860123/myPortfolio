@@ -18,3 +18,8 @@ background-color: rgb(243, 239, 243);
 
 margin-left: auto;
 }
+@media screen and (max-width:1192px) {
+    .section{
+        width: 100%;
+    }
+}

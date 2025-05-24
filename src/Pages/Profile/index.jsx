@@ -3,10 +3,11 @@ import styles from './index.module.css'
 import profilePic from '../../assets/kaifImg.jpg'
 import  {Link}  from 'react-router-dom'
 import cv from "../../assets/kaifResume.pdf"
-function Profile() {
+function Profile({profileRef}) {
+  
   return (
     <>
-     <div className={styles.profile}>
+     <div className={styles.profile} ref={profileRef}>
       <div className={styles.profilePic}>
       <img src={profilePic}/>
 

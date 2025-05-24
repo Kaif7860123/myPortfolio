@@ -4,16 +4,16 @@ import Header from "../../component/header";
 import Education from "../education";
 import Professional from "../Professional";
 // import Education from "../education";
-function Resume() {
+function Resume({resumeref}) {
   const[edu,setedu]=useState("Education")
    const routes=(e)=>{
 setedu(e)
-console.log(edu);
+
 
    }
   return (
     <>
-      <div className={styles.resume}>
+      <div className={styles.resume} ref={resumeref}>
         <Header title="7+ Years of Experience" task="My Resume" />
         <div className={styles.resumeDetails}>
           <ul>
