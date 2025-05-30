@@ -9,7 +9,7 @@ import project8 from '../assets/unbrew.png';
 import project9 from '../assets/passwordGenerator.png';      
 import project10 from '../assets/StudentGrievanceSystem.png';      
 import project12 from '../assets/nestWebsite.png';      
-import project11 from '../assets/BMICalculator.png';      
+import project11 from '../assets/bookStore.png';      
 import { IoMdHeartEmpty } from "react-icons/io";
 import { FiArrowUpRight } from "react-icons/fi";
                               
@@ -17,11 +17,13 @@ export const projectData=[
     {   
         id:0,      
         pic:project1,                                                                                                                                                                             
-        text:"Development",  
+        text:"Developments",  
        HeartIcon:<IoMdHeartEmpty/>,
         count:600,                                                           
-        content:"The Service provide for design",
-        arrowIcon:<FiArrowUpRight/>
+        content:"Swamini Product",
+        arrowIcon:<FiArrowUpRight/>,
+        url:"https://swaminiweb.netlify.app/"
+
         
     },
     {                                                                                      
@@ -30,8 +32,9 @@ export const projectData=[
         text:"Development",  
        HeartIcon:<IoMdHeartEmpty/>,
         count:600,
-        content:"The Service provide for design",
-        arrowIcon:<FiArrowUpRight/>
+        content:"Begining Admin",
+        arrowIcon:<FiArrowUpRight/>,
+        url:"https://beginingstaradmin.netlify.app/"
         
     },  
     {
@@ -40,7 +43,7 @@ export const projectData=[
         text:"Development",  
        HeartIcon:<IoMdHeartEmpty/>,
         count:600,
-        content:"The Service provide for design",
+        content:"ATM Web",
         arrowIcon:<FiArrowUpRight/>,
         url:"https://euphonious-bonbon-60ef35.netlify.app/"
         
@@ -53,7 +56,7 @@ export const projectData=[
         text:"Development",  
        HeartIcon:<IoMdHeartEmpty/>,
         count:600,                                                           
-        content:"The Service provide for design",
+        content:"Code Review",
         arrowIcon:<FiArrowUpRight/>
         
     },
@@ -64,7 +67,7 @@ export const projectData=[
        HeartIcon:<IoMdHeartEmpty/>,
        url:"https://texteditore.netlify.app/",
         count:600,
-        content:"The Service provide for design",
+        content:"Text Editor",
         arrowIcon:<FiArrowUpRight/>
         
     },  
@@ -75,7 +78,7 @@ export const projectData=[
        HeartIcon:<IoMdHeartEmpty/>,
        url:"https://geminie.netlify.app/",
         count:600,
-        content:"The Service provide for design",
+        content:"Gemini Clone",
         arrowIcon:<FiArrowUpRight/>
         
     },  
@@ -85,8 +88,9 @@ export const projectData=[
         text:"Development",  
        HeartIcon:<IoMdHeartEmpty/>,
         count:600,                                                           
-        content:"The Service provide for design",
-        arrowIcon:<FiArrowUpRight/>
+        content:"Travel Web ",
+        arrowIcon:<FiArrowUpRight/>,
+        url:"https://travelwebss.netlify.app/"
         
     },
     {                                                                                      
@@ -95,7 +99,8 @@ export const projectData=[
         text:"Development",  
        HeartIcon:<IoMdHeartEmpty/>,
         count:600,
-        content:"The Service provide for design",
+        url:"https://unbrews.netlify.app/",
+        content:"Unbrew",
         arrowIcon:<FiArrowUpRight/>
         
     },  
@@ -106,7 +111,7 @@ export const projectData=[
        HeartIcon:<IoMdHeartEmpty/>,
        url:"https://kaif-passwordgenerator.netlify.app/",
         count:600,
-        content:"The Service provide for design",
+        content:"Password Generator",
         arrowIcon:<FiArrowUpRight/>
         
     },  
@@ -116,8 +121,9 @@ export const projectData=[
         text:"Development",  
        HeartIcon:<IoMdHeartEmpty/>,
         count:600,
-        content:"The Service provide for design",
-        arrowIcon:<FiArrowUpRight/>
+        content:"Student Grievance System",
+        arrowIcon:<FiArrowUpRight/>,
+        url:"https://studentgrievancesystem.netlify.app/"
         
     },  
     {
@@ -126,18 +132,20 @@ export const projectData=[
         text:"Development",  
        HeartIcon:<IoMdHeartEmpty/>,
         count:600,
-        content:"The Service provide for design",
-        arrowIcon:<FiArrowUpRight/>
+        content:"E-commerce website",
+        arrowIcon:<FiArrowUpRight/>,
+        url:"https://nestwebsite.netlify.app/"
         
     },  
     {
-        id:1,
+        id:11,
         pic:project11,                        
         text:"Development",  
        HeartIcon:<IoMdHeartEmpty/>,
         count:600,
-        content:"The Service provide for design",
-        arrowIcon:<FiArrowUpRight/>
+        content:"Book Store",
+        arrowIcon:<FiArrowUpRight/>,
+        url:"https://book-storess.netlify.app/"
         
     },  
                                              

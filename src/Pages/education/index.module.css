@@ -111,3 +111,11 @@ margin-bottom: 20px;
     font-size: 20px;
     line-height: 1.8rem;
 }
+ @media screen and (max-width: 450px) {
+    .educationCont{
+           grid-template-columns: repeat(auto-fill,minmax(230px,1fr));
+
+    }
+     
+    
+ }

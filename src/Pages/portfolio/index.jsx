@@ -40,13 +40,11 @@ const scrollToSection=(name)=>{
 }
   return (
     <>
-    {/* <button onClick={()=>dispatch(increment())}>increment me</button>
-    <button onClick={()=>dispatch(decrement())}>decrement</button>
-    <h1>count is {data}</h1> */}
+     
      <div className={styles.container}>
        <Sidebar scrollToSection={scrollToSection}/>
 <div className={styles.section}>
- <Profile profileRef={profileref}/>
+ <Profile profileRef={profileref} featureref={featureref} skillref={skillref} projectref={projectref} resumeref={resumeref} contactref={contactref}/>
  <Features featureref={featureref}/>
  <Project projectref={projectref}/>
  <Resume resumeref={resumeref}/>

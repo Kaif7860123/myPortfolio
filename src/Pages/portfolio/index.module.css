@@ -17,9 +17,11 @@ border-left: 1px solid rgb(190, 188, 188);
 background-color: rgb(243, 239, 243);
 
 margin-left: auto;
+z-index: 1;
 }
 @media screen and (max-width:1192px) {
     .section{
         width: 100%;
     }
 }
+ 

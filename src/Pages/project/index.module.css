@@ -17,17 +17,19 @@
   margin: 12px;
 }
 .imgDiv {
-  width: 280px;
+  width: 250px;
   height: 200px;
   overflow: hidden;
   border-radius: 8px;
+  background-color: red;
 }
 .project1:hover > .imgDiv > img {
   transform: scale(1.1);
   /* border-radius: 8px; */
 }
 .project1 img {
-  max-width: 244px;
+  /* max-width: 244px; */
+  width: 100%;
   overflow: hidden;
   height: 200px;
   border-radius: 8px;
@@ -57,4 +59,20 @@
 }
 a{
     text-decoration: none;
+}
+.heartis{
+  background-color: rgb(248, 9, 148);
+  overflow: hidden;
+   
+}
+@media screen and (max-width:768px) {
+  .imgDiv{
+    width: 70%;
+    margin: auto;
+  }
+}
+@media screen and (max-width:476px) {
+  .imgDiv{
+    width: 100%;
+  }
 }

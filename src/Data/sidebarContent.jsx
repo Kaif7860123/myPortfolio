@@ -44,14 +44,17 @@ import { FaInstagram } from "react-icons/fa";
 export const Icons=[
     {
         id:0,
-        icon:<FiFacebook/>
+        icon:<FiFacebook/>,
+        url:"https://www.facebook.com/profile.php?id=100042124833684"
     },
     {
         id:1,
-        icon:<FiLinkedin/>
+        icon:<FiLinkedin/>,
+        url:"https://linkedin.com/in/mohammad-kaif78610"
     },
     {
         id:2,
-        icon:<FaInstagram/>
+        icon:<FaInstagram/>,
+        url:"https://www.instagram.com/mohammadkaif9294/"
     },
 ]

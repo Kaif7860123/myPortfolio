@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./index.module.css";
 import Header from "../../component/header";
 import { projectData } from "../../Data/projectData";
@@ -8,6 +8,12 @@ import { Link } from "react-router-dom";
 // import project1 from '../../assets/portfolio1.jpg';
 
 function Project({projectref}) {
+  const [click,setclick]=useState(false)
+  const liked=()=>{
+    
+alert("clicked")
+setclick(true)
+  }
   return (
     <>   
       <div className={styles.project} ref={projectref}>
@@ -26,7 +32,7 @@ function Project({projectref}) {
                 <div className={styles.midContent}>
                   <p className={styles.projectType}>{item.text}</p>
                   <p className={styles.likes}>
-                    <i>
+                    <i onClick={()=>liked()} className={item.id!=i?styles.heartis:""}>
                       {item.HeartIcon}
                     </i>
                     {item.count}
@@ -37,7 +43,7 @@ function Project({projectref}) {
 
                   <p className={styles.text}>
                    {item.content}
-                    <i>
+                    <i >
                     {item.arrowIcon}                           
                     </i>
                   </p>

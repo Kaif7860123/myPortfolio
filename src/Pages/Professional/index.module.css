@@ -5,9 +5,14 @@
 margin-bottom: 80px;
 }
 .frameworkSkill{
-    width: 50%;
+    display: grid;
+    /* grid-template-columns: repeat(1, 2fr); */
+    grid-template-columns: repeat(auto-fit, minmax(300px,2fr));
+    column-gap: 100px;
+    background-color: yellow;
+     width: 50%;
     margin: 30px 10px;
-    margin-bottom: 80px;
+    margin-bottom: 80px; 
 }
 .frameworks{
     margin-top: 20px;
@@ -33,3 +38,30 @@ margin-bottom: 80px;
 
 
 }
+  
+@media screen and (max-width:576px) {
+    .frameworkSkill{
+        width: 100%;
+        /* display: flex;
+        flex-direction: column; */
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+
+    }
+}
+/* @media screen and (max-width: 450px) {
+    .professional{
+        flex-direction: column;
+    }
+    .frameworkSkill{
+        width: 100%;
+        margin: 0px;
+    }
+    .frameworks{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .frameworkName{
+        text-align: center;
+    }
+} */

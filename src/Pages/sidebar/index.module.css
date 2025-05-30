@@ -7,6 +7,17 @@
     position: fixed;
      
 }
+.sidebar1{
+    width: 20%;
+    /* background-color: rgb(243, 239, 243); */
+    padding: 45px;
+    height: 100vh;
+    overflow: scroll;
+    position: fixed;
+    z-index:2;
+    /* background-color: yellow; */
+     
+}
 .profile img{
     width: 178px;
     height: 178px;
@@ -62,15 +73,37 @@ margin-bottom: 23px;
     cursor: pointer;
     color: white;
 }
-.menu{
-    font-size: 40px;
-       color: rgb(248, 9, 148);
 
+link{
+    text-decoration: none;
+   color: rgb(248, 9, 148);
 }
-
 @media screen and (max-width:1192px) {
     .sidebar{
         display:none;
-        background-color: red;
+    }
+     .sidebar1{
+        display: block;
+           background-color:rgb(231, 227, 227);
+        
+
+    }
+    
+}
+@media screen and (max-width:992px) {
+    .sidebar1{
+        width: 25%;
     }
 }
+ 
+@media screen and (max-width:576px) {
+    .sidebar1{
+        width: 100%;
+    }
+    .bottomContent p{
+     text-align: left;
+    }
+}
+
+ 
+ 

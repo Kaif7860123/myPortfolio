@@ -1,15 +1,18 @@
 import React, { useRef } from "react";
 import styles from "./index.module.css";
-import pic from "../../assets/kaifImg.jpg";
+import pic from "../../assets/image.png";
 import { content, Icons } from "../../Data/sidebarContent";
 import { FiMenu } from "react-icons/fi";
-const Sidebar = ({scrollToSection}) => {
- 
-
+import { Link, useNavigate } from "react-router-dom";
+const Sidebar = ({scrollToSection,check}) => {
+ console.log(check)
+ const navigate=useNavigate()
+const navigatePage=(link)=>{
+navigate(link)
+}
   return (
     <>
-      <div className={styles.sidebar}>
-        <i className={styles.menu}><FiMenu/></i>
+      <div className={check?styles.sidebar1:styles.sidebar}>
         <div className={styles.profile}>
           <img src={pic} />
         </div>
@@ -28,7 +31,7 @@ const Sidebar = ({scrollToSection}) => {
           {Icons.map((item, i) => {
             return (
               <div className={styles.icons}>
-                <i key={i}>{item.icon}</i>
+              <i>  <Link key={i} to={item.url}  target="_blank">{item.icon}</Link></i>
               </div>
             );
           })}

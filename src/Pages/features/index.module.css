@@ -62,3 +62,21 @@ font-size: 20px;
 
         }
     }
+    @media screen and (max-width: 450px) {
+        .box{
+            grid-template-columns: repeat(auto-fill,minmax(230px,1fr));
+        }
+        .box1{
+            margin: 10px;
+            padding: 20px;
+        }
+        .box1 i{
+            font-size: 40px;
+        }
+        .heading{
+            font-size: 24px;
+        }
+        .para{
+            font-size: 18px;
+        }
+    }
