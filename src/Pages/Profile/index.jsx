@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import styles from "./index.module.css";
 import profilePic from "../../assets/image.png";
 import { Link } from "react-router-dom";
-import cv from "../../assets/kaifResume.pdf";
+import cv from "../../assets/kaifUpdated.pdf";
 import { FiMenu } from "react-icons/fi";
 import { ImCross } from "react-icons/im";
 import Sidebar from "../sidebar";

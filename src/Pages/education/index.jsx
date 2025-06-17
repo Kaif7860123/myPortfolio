@@ -8,8 +8,7 @@ function Education() {
       <div className={styles.educationCont}>
         <div className={styles.educationSection}>
           <div className={styles.educationTime}>
-            {/* <p className={styles.year}>2019-2025</p>
-            <p className={styles.eduQuality}>Education Quality</p> */}
+            
             <CommonData year="2019-2025" quality="Education Quality"/>
           </div>
           <div className={styles.educationDetail}>
@@ -42,14 +41,7 @@ function Education() {
               })}
           </div>
         </div>
-        {/* <div className={styles.experienceSection}>
-          <div className={styles.educationTime}>
-            <p className={styles.year}>2019-2025</p>
-            <p className={styles.eduQuality}>Job Experience</p>
-          </div>
-        </div> */}
-
-        {/* job experience */}
+         
 
         <div className={styles.educationSection}>
           <div className={styles.educationTime}>
@@ -63,11 +55,7 @@ function Education() {
                 return (
                   <>
                     <div className={styles.border}>
-                      {/* <div className={styles.circleCont}>
-                        <div className={styles.circle}>
-                          <div className={styles.borderRight}></div>
-                        </div>
-                      </div> */}
+                      
                       <div className={styles.marginBttom}>
                         <div className={styles.detailBox}>
                         <div className={styles.circleCont}>

@@ -40,7 +40,7 @@ export const eduData=[
         techName:"Jankiweb Infotech Pvt Opc Ltd",
         universityName:" MERN Stack Developer",
 
-        marks:"3 months",
+        marks:"1 year",
         eduAbout:"In Jankiweb Infotech Pvt Opc Ltd , I am working as a MERN Stack Developer. Here I learn how to do work in a company "
     },
 ]

@@ -14,7 +14,7 @@ setedu(e)
   return (
     <>
       <div className={styles.resume} ref={resumeref}>
-        <Header title="6 months intrenship + 2 months working Experience" task="My Resume" />
+        <Header title=" 1 year Experience" task="My Resume" />
         <div className={styles.resumeDetails}>
           <ul>
             <li onClick={()=>routes("Education")}>Education</li>
